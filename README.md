@@ -83,23 +83,13 @@
 
 ## 7. 트러블 슈팅
 <details>
-  <summary>cors</summary>
+  <summary>해당 장르의 책을 조회하기에 어려움이 있었다.</summary>
   <div markdown="1">
  
-* 프론트의 주소와 백엔드의 주소가 달라 cors 에러가 발생했다
-* 공식 문서를 참조해서 해결 할 수 있었는데 문서 설명에 따라 settings.py 의 INSTALLED_APPS, MIDDLEWARE,  CORS_ALLOWED_ORGINS 설정을 통해 해결 할 수 있었다.
-   [티스토리 참조](https://ddongkim.tistory.com/85)
+* url에 name을 지정해주고 views.py 의 함수 안에 name 을 넣음으로 해당 장르의 소설책만 가져올 수 있었다.
+   [📄코드](https://github.com/yinmsk/webtachu/blob/fb13f919f245fa79718c1779d79bf5f18bf14178/books/views.py#L14)
   </div>
 </details>
-
-<details>
-  <summary>트러블 슈팅 2</summary>
-  <div markdown="1">
- 
-* 여기
-  </div>
-</details>
-<br><br/>
 
 
 ## 8. 회고 느낀점
