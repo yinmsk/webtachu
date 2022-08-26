@@ -61,10 +61,6 @@
 * 프론트에서는 장고 템플릿을 사용하였다.
   </div>
 </details>
- 
-* 
-  </div>
-</details>
 
 <details>
   <summary>장고 내장 페이지네이션 <a href="https://github.com/yinmsk/webtachu/blob/fb13f919f245fa79718c1779d79bf5f18bf14178/books/views.py#L14">📄코드</a></summary>
