@@ -54,42 +54,32 @@
 
 ## 6. 맡은 기능
 <details>
-  <summary>최근 선호작 목록 조회 <a href="https://ddongkim.tistory.com/73">📄코드</a></summary>
+  <summary>소설 목록 조회 <a href="https://github.com/yinmsk/webtachu/blob/fb13f919f245fa79718c1779d79bf5f18bf14178/books/views.py#L14">📄코드</a></summary>
   <div markdown="1">
+ 
+* 소설책을 장르별로 필터링해서 objects을 가져온 다음 소설책의 정보를 가져와 html에 보내주었다.
+* 프론트에서는 장고 템플릿을 사용하였다.
+  </div>
+</details>
  
 * 
   </div>
 </details>
 
 <details>
-  <summary>추천작(5개) 목록 조회 <a href="https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44">📄코드</a></summary>
+  <summary>장고 내장 페이지네이션 <a href="https://github.com/yinmsk/webtachu/blob/fb13f919f245fa79718c1779d79bf5f18bf14178/books/views.py#L14">📄코드</a></summary>
   <div markdown="1">
  
-* 
+* 장고의 Paginator 를 import 해주어 기능을 만들었다.
+* 모델의 objects가 담겨 있는 list를 원하는 횟수만큼 출력해 주도록 설정한 다음 html로 리턴 시켜주었다.
   </div>
 </details>
 
 <details>
-  <summary>Today best top20 목록 조회 <a href="https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44">📄코드</a></summary>
+  <summary>선호작이 없을 때 선호작 추천 문구가 나온다. <a href="https://github.com/yinmsk/webtachu/blob/fb13f919f245fa79718c1779d79bf5f18bf14178/templates/main_genre/main.html#L13">📄코드</a></summary>
   <div markdown="1">
  
-* 
-  </div>
-</details>
-
-<details>
-  <summary>장고 내장 페이지네이션 <a href="https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44">📄코드</a></summary>
-  <div markdown="1">
- 
-* 
-  </div>
-</details>
-
-<details>
-  <summary>소설 데이터 가져오기 <a href="https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44">📄코드</a></summary>
-  <div markdown="1">
- 
-* 
+* 장고 템플릿에서 if 문으로 선호 작이 없을때는 "좋아하는 작품을 찾아주세요!" 라는 문구가 나오도록 하였다.
   </div>
 </details>
 <br><br/>
