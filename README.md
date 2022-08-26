@@ -3,7 +3,7 @@
 </p>
 
 # 📖[웹소설] 일타강사 AI의 기막힌 추천 (웹타추)
-딥페이크를 이용하여 움직이는 사진을 생성, 지구 밖 행성으로 이주한 사람들의 시민권을 만들어주는 웹사이트
+사용자가 좋아요를 누른 소설의 줄거리와 유사도가 높은 작품을 추천해주는 서비스를 제공하는 웹사이트
 <br><br/>
 
 
@@ -41,19 +41,20 @@
 
 ## 5. 핵심 기능
 이 프로젝트의 핵심 기능은 딥페이크를 이용해 사진을 움직이는 초상화로 만드는 것 입니다.
-* JWT를 이용한 사용자 인증
-* 이미지를 style transfer와 딥페이크를 이용해서 움직이는 그림처럼 변형
-* 방명록 작성 및 삭제
-* 시간이 오래 걸리는 작업을 멀티 프로세싱을 이용하여 처리
-* S3를 이용한 파일 처리
-* 차트를 이용해서 데이터를 시각적으로 표현
-* 여러 css 애니메이션 효과
+* 선호작을 누른 작품들의 스토리와 유사도가 높은 작품들을 추천
+* 선호작을 아직 누르지 않았다면 별점이 높은 작품들을 추천
+* Today best top 20 - 네이버 시리즈의 일간 Top100에서 20위까지 크롤링해서 보여주기
+* 회원가입 및 로그인 - 장고 내장 모델 사용
+* 장르별 페이지에서 작품들을 Django 내장 Paginator를 사용하여 한 페이지 당 10 개씩 표시
+* 작품 상세 페이지에서 리뷰들의 키워드를 분석해서 가장 많은 키워드 상위 5개
+* 마이 페이지에서 선호작 누른 작품들의 줄거리 키워드 빈도수 상위 10개 표시
+* 리뷰 CRUD
 <br><br/>
 
 
 ## 6. 맡은 기능
 <details>
-  <summary>simplejwt 를 이용한 회원 가입 기능 <a href="https://ddongkim.tistory.com/73">📄코드</a></summary>
+  <summary>최근 선호작 목록 조회 <a href="https://ddongkim.tistory.com/73">📄코드</a></summary>
   <div markdown="1">
  
 * 
@@ -61,10 +62,34 @@
 </details>
 
 <details>
-  <summary>배포 <a href="https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44">📄코드</a></summary>
+  <summary>추천작(5개) 목록 조회 <a href="https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44">📄코드</a></summary>
   <div markdown="1">
  
-* 시리얼라이저의 정보를 가져오고 .is_vaild() 를 통해 유효성을 검사 후 .save() 를 통해 저장 하였다.
+* 
+  </div>
+</details>
+
+<details>
+  <summary>Today best top20 목록 조회 <a href="https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44">📄코드</a></summary>
+  <div markdown="1">
+ 
+* 
+  </div>
+</details>
+
+<details>
+  <summary>장고 내장 페이지네이션 <a href="https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44">📄코드</a></summary>
+  <div markdown="1">
+ 
+* 
+  </div>
+</details>
+
+<details>
+  <summary>소설 데이터 가져오기 <a href="https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44">📄코드</a></summary>
+  <div markdown="1">
+ 
+* 
   </div>
 </details>
 <br><br/>
