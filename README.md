@@ -4,44 +4,42 @@
 
 # 📖[웹소설] 일타강사 AI의 기막힌 추천 (웹타추)
 딥페이크를 이용하여 움직이는 사진을 생성, 지구 밖 행성으로 이주한 사람들의 시민권을 만들어주는 웹사이트
-
-커뮤니티 기능 및 마이 페이지에서 방 꾸미는 기능 등
- 
- <br><br/>
+<br><br/>
 
 
 ## 1. 개발 기간, 참여 인원
-* 개발기간: 2022.07.06 - 2022.08.16
+* 개발기간: 2022.06.02 - 2022.06.14
 * **Team** <a href="https://github.com/cmjcum"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
 김동근 <a href="https://github.com/yinmsk"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
 노을 <a href="https://github.com/minkkky"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
 이정아 <a href="https://github.com/zeonga1102"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
 이현경 <a href="https://github.com/LULULALA2"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
-* **S.A** <a href="https://cold-charcoal.tistory.com/118">블로그로 이동(☞ﾟヮﾟ)☞</a>
+* **S.A** <a href="https://cold-charcoal.tistory.com/85">블로그로 이동(☞ﾟヮﾟ)☞</a>
 ***
 <br><br/>
 
 
 ## 2. 사용 기술(버전 적기)
-* python 3.7.13
-* Django 3.2.13
-* DRF 3.13.1
-* deepfake
-* docker
-* AWS
-* postgreSQL
-* javascript
+* python
+* Django
+* MeCab
+* Doc2Vec
+* NLP
+* Vecto
+* Embedding
+* Crawling
+
  
 <br><br/>
 
 
 ## 3. ERD 설계
-![wm](https://user-images.githubusercontent.com/104487608/186304526-54d008c7-08a2-4e8d-82d7-fb581cc7a8cc.png)
+![웹타추](https://user-images.githubusercontent.com/104487608/186796084-dbc4f046-8628-42ae-9c9c-7207760e4c80.png)
 <br><br/>
 
 
 ## 4. 핵심 기능
-이 프로젝트의 핵심 기능은 000입니다.
+이 프로젝트의 핵심 기능은 웹소설의 줄거리를 분석해서 사용자가 좋아요를 눌러둔 소설들의 줄거리 분석과 유사도가 높은 것을 추천해 줍니다.
 <details>
   <summary>기능 자세히 알아보기</summary>
   <div markdown="1">
