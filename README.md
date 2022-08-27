@@ -22,9 +22,7 @@
 ## 2. 사용 기술
 * Python 3.8
 * Django 3.2
-* Crawling(bs4 4.11, selenium 4.2)
-* NLP(KoNLPy 0.6)
-* Vector Embedding(gensim 3.8 - Doc2Vec)
+* bs4 4.11
  
 <br><br/>
 
@@ -84,6 +82,16 @@
  
 * url에 name을 지정해주고 views.py 의 함수 안에 name 을 넣음으로 해당 장르의 소설책만 가져올 수 있었다.
    [📄코드](https://github.com/yinmsk/webtachu/blob/fb13f919f245fa79718c1779d79bf5f18bf14178/books/views.py#L14)
+  </div>
+</details>
+
+<details>
+  <summary>좋아요 누른 작품 최신순 정렬에 어려움이 있습니다. BookModel의 id값으로 정렬을 하려 했지만 정렬을 할 수 없었습니다</summary>
+  <div markdown="1">
+ 
+* 정렬이 되지 않았던 이유는 BookModel의 id 는 book_id이므로 선호작품 등록 순서와는 관계가 없었기 때문이었다. <br>
+   raw query로 users_favorites에 접근하여 해결 할 수 있었습니다. raw query 중간 테이블에 접근해 id값을 받아와 정렬했습니다.
+   [📄코드](https://github.com/zeonga1102/webtachu/blob/master/users/views.py#L118)
   </div>
 </details>
 
