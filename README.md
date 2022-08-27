@@ -8,7 +8,7 @@
 
 
 ## 1. 개발 기간, 참여 인원
-* 개발기간: 2022.06.28 - 2022.07.05
+* 개발기간: 2022.06.02 - 2022.06.14
 * **Team** <a href="https://github.com/cmjcum"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
 김동근 <a href="https://github.com/yinmsk"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
 노을 <a href="https://github.com/minkkky"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
