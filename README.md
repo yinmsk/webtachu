@@ -42,8 +42,8 @@
   <summary>소설 목록 조회 <a href="https://github.com/yinmsk/webtachu/blob/fb13f919f245fa79718c1779d79bf5f18bf14178/books/views.py#L14">📄코드</a></summary>
   <div markdown="1">
  
+![장르](https://user-images.githubusercontent.com/104487608/188053575-9155bbed-c48d-4fb7-b5aa-55e64321ade6.png)
 * 소설책을 장르별로 필터링해서 objects을 가져온 다음 소설책의 정보를 가져와 html에 보내주었다.
-* 프론트에서는 장고 템플릿을 사용하였다.
   </div>
 </details>
 
@@ -60,6 +60,7 @@
   <summary>선호작이 없을 때 선호작 추천 문구가 나온다. <a href="https://github.com/yinmsk/webtachu/blob/fb13f919f245fa79718c1779d79bf5f18bf14178/templates/main_genre/main.html#L13">📄코드</a></summary>
   <div markdown="1">
  
+![추천 문구](https://user-images.githubusercontent.com/104487608/188053405-7520c83b-738a-4eb7-a28a-450fb03d79c6.png)
 * 장고 템플릿에서 if 문으로 선호 작이 없을때는 "좋아하는 작품을 찾아주세요!" 라는 문구가 나오도록 하였다.
   </div>
 </details>
@@ -80,7 +81,7 @@
   <summary>해당 장르의 책을 조회하기에 어려움이 있었다.</summary>
   <div markdown="1">
  
-* url에 name을 지정해주고 views.py 의 함수 안에 name 을 넣음으로 해당 장르의 소설책만 가져올 수 있었다. <br>
+* url의 name을 지정해주고 views.py 의 함수 안에 해당 name 을 넣어 해당 장르의 소설책만 가져올 수 있었다. <br>
    [📄코드](https://github.com/yinmsk/webtachu/blob/fb13f919f245fa79718c1779d79bf5f18bf14178/books/views.py#L14)
   </div>
 </details>
