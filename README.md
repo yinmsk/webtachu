@@ -20,8 +20,8 @@
 
 
 ## 2. 사용 기술
-* Python 3.8
-* Django 3.2
+* Python
+* Django
  
 <br><br/>
 
